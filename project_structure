@@ -1,0 +1,18 @@
+cosmos/
+├── Cargo.toml
+└── src/
+    ├── main.rs
+    ├── celestial/
+    │   ├── mod.rs
+    │   ├── star.rs
+    │   └── orbit.rs
+    ├── core/
+    │   ├── mod.rs
+    │   └── universe.rs
+    ├── storage/
+    │   └── mod.rs
+    └── ui/
+        ├── mod.rs
+        ├── gui.rs
+        ├── start_menu.rs
+        └── cosmos_view.rs 

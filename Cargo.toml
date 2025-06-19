@@ -1,0 +1,22 @@
+[package]
+name = "cosmos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.0", features = ["v4"] }
+# 3D 렌더링을 위한 의존성들
+three-d = "0.16"
+nalgebra = "0.32"
+nalgebra-glm = "0.18"
+# 기존 GUI는 유지하되 3D 뷰어 창을 위해 사용
+egui = "0.24"
+eframe = "0.24"
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.8"
+dirs = "5.0"  # 시스템 디렉토리 경로를 얻기 위한 크레이트
+# 3D 수학과 물리 시뮬레이션
+glam = "0.24"
+winit = "0.28"
