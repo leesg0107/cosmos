@@ -132,9 +132,6 @@ This project is in active development. Current focus areas:
 - Performance enhancements
 - User experience refinements
 
-## 📝 **License**
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🌟 **Vision**
 
